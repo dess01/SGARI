@@ -33,3 +33,18 @@ C:\Users\Samy\Documents\Visual Studio 2010\VB\ABONNET\ABONNET\obj\x86\Debug\Gene
 C:\Users\Samy\Documents\Visual Studio 2010\VB\ABONNET\ABONNET\obj\x86\Debug\ABONNET.exe
 C:\Users\Samy\Documents\Visual Studio 2010\VB\ABONNET\ABONNET\obj\x86\Debug\ABONNET.xml
 C:\Users\Samy\Documents\Visual Studio 2010\VB\ABONNET\ABONNET\obj\x86\Debug\ABONNET.pdb
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.exe
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.xml
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.pdb
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\bin\Debug\ABONNET.exe
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\bin\Debug\ABONNET.pdb
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\bin\Debug\ABONNET.xml
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.frmCheque.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.frmClient.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.frmContrat.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.frmCredit.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.frmLigneFacture.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.Resources.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.frmPaiement.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.Provinciale.resources
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.vbproj.GenerateResource.Cache

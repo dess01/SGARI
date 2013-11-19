@@ -22,71 +22,28 @@ Partial Class frmContrat
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnOuvrir = New System.Windows.Forms.Button()
-        Me.btnRenouveller = New System.Windows.Forms.Button()
-        Me.btnResilier = New System.Windows.Forms.Button()
-        Me.btnFacturer = New System.Windows.Forms.Button()
-        Me.btnLivrer = New System.Windows.Forms.Button()
         Me.lblTitre = New System.Windows.Forms.Label()
         Me.pnlEcran = New System.Windows.Forms.Panel()
         Me.lblSousTitre = New System.Windows.Forms.Label()
-        Me.lblDescr = New System.Windows.Forms.Label()
         Me.lblDescrButtons = New System.Windows.Forms.Label()
         Me.btnQuitter = New System.Windows.Forms.Button()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ContratToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CréationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RenouvelerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RésilierToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModificationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FournisseursToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FacturesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'btnOuvrir
-        '
-        Me.btnOuvrir.AccessibleDescription = ""
-        Me.btnOuvrir.Location = New System.Drawing.Point(12, 71)
-        Me.btnOuvrir.Name = "btnOuvrir"
-        Me.btnOuvrir.Size = New System.Drawing.Size(75, 33)
-        Me.btnOuvrir.TabIndex = 0
-        Me.btnOuvrir.Text = "Ouvrir"
-        Me.btnOuvrir.UseVisualStyleBackColor = True
-        '
-        'btnRenouveller
-        '
-        Me.btnRenouveller.Location = New System.Drawing.Point(12, 115)
-        Me.btnRenouveller.Name = "btnRenouveller"
-        Me.btnRenouveller.Size = New System.Drawing.Size(75, 33)
-        Me.btnRenouveller.TabIndex = 1
-        Me.btnRenouveller.Text = "Renouveller"
-        Me.btnRenouveller.UseVisualStyleBackColor = True
-        '
-        'btnResilier
-        '
-        Me.btnResilier.Location = New System.Drawing.Point(12, 159)
-        Me.btnResilier.Name = "btnResilier"
-        Me.btnResilier.Size = New System.Drawing.Size(75, 33)
-        Me.btnResilier.TabIndex = 2
-        Me.btnResilier.Text = "Résilier"
-        Me.btnResilier.UseVisualStyleBackColor = True
-        '
-        'btnFacturer
-        '
-        Me.btnFacturer.Location = New System.Drawing.Point(12, 247)
-        Me.btnFacturer.Name = "btnFacturer"
-        Me.btnFacturer.Size = New System.Drawing.Size(75, 33)
-        Me.btnFacturer.TabIndex = 3
-        Me.btnFacturer.Text = "Facturer"
-        Me.btnFacturer.UseVisualStyleBackColor = True
-        '
-        'btnLivrer
-        '
-        Me.btnLivrer.Location = New System.Drawing.Point(12, 203)
-        Me.btnLivrer.Name = "btnLivrer"
-        Me.btnLivrer.Size = New System.Drawing.Size(75, 33)
-        Me.btnLivrer.TabIndex = 4
-        Me.btnLivrer.Text = "Livrer"
-        Me.btnLivrer.UseVisualStyleBackColor = True
         '
         'lblTitre
         '
         Me.lblTitre.AutoSize = True
         Me.lblTitre.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitre.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.lblTitre.Location = New System.Drawing.Point(12, 9)
+        Me.lblTitre.Location = New System.Drawing.Point(12, 33)
         Me.lblTitre.Name = "lblTitre"
         Me.lblTitre.Size = New System.Drawing.Size(309, 26)
         Me.lblTitre.TabIndex = 5
@@ -95,9 +52,9 @@ Partial Class frmContrat
         'pnlEcran
         '
         Me.pnlEcran.AccessibleRole = System.Windows.Forms.AccessibleRole.Window
-        Me.pnlEcran.Location = New System.Drawing.Point(93, 71)
+        Me.pnlEcran.Location = New System.Drawing.Point(17, 71)
         Me.pnlEcran.Name = "pnlEcran"
-        Me.pnlEcran.Size = New System.Drawing.Size(496, 209)
+        Me.pnlEcran.Size = New System.Drawing.Size(572, 209)
         Me.pnlEcran.TabIndex = 6
         '
         'lblSousTitre
@@ -106,19 +63,9 @@ Partial Class frmContrat
         Me.lblSousTitre.Font = New System.Drawing.Font("Times New Roman", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSousTitre.Location = New System.Drawing.Point(400, 44)
         Me.lblSousTitre.Name = "lblSousTitre"
-        Me.lblSousTitre.Size = New System.Drawing.Size(169, 24)
+        Me.lblSousTitre.Size = New System.Drawing.Size(162, 24)
         Me.lblSousTitre.TabIndex = 7
-        Me.lblSousTitre.Text = "Contrats Annuelle"
-        '
-        'lblDescr
-        '
-        Me.lblDescr.AutoSize = True
-        Me.lblDescr.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDescr.Location = New System.Drawing.Point(8, 305)
-        Me.lblDescr.Name = "lblDescr"
-        Me.lblDescr.Size = New System.Drawing.Size(117, 22)
-        Me.lblDescr.TabIndex = 8
-        Me.lblDescr.Text = "Descriptions:"
+        Me.lblSousTitre.Text = "Contrats Annuels"
         '
         'lblDescrButtons
         '
@@ -138,6 +85,58 @@ Partial Class frmContrat
         Me.btnQuitter.Text = "Quitter"
         Me.btnQuitter.UseVisualStyleBackColor = True
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContratToolStripMenuItem, Me.FournisseursToolStripMenuItem, Me.FacturesToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(611, 24)
+        Me.MenuStrip1.TabIndex = 11
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'ContratToolStripMenuItem
+        '
+        Me.ContratToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CréationToolStripMenuItem, Me.RenouvelerToolStripMenuItem, Me.RésilierToolStripMenuItem, Me.ModificationToolStripMenuItem})
+        Me.ContratToolStripMenuItem.Name = "ContratToolStripMenuItem"
+        Me.ContratToolStripMenuItem.Size = New System.Drawing.Size(64, 20)
+        Me.ContratToolStripMenuItem.Text = "&Contrats"
+        '
+        'CréationToolStripMenuItem
+        '
+        Me.CréationToolStripMenuItem.Name = "CréationToolStripMenuItem"
+        Me.CréationToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CréationToolStripMenuItem.Text = "&Création"
+        '
+        'RenouvelerToolStripMenuItem
+        '
+        Me.RenouvelerToolStripMenuItem.Name = "RenouvelerToolStripMenuItem"
+        Me.RenouvelerToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RenouvelerToolStripMenuItem.Text = "R&enouveler"
+        '
+        'RésilierToolStripMenuItem
+        '
+        Me.RésilierToolStripMenuItem.Name = "RésilierToolStripMenuItem"
+        Me.RésilierToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RésilierToolStripMenuItem.Text = "&Résilier"
+        '
+        'ModificationToolStripMenuItem
+        '
+        Me.ModificationToolStripMenuItem.Name = "ModificationToolStripMenuItem"
+        Me.ModificationToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ModificationToolStripMenuItem.Text = "&Modification"
+        '
+        'FournisseursToolStripMenuItem
+        '
+        Me.FournisseursToolStripMenuItem.Name = "FournisseursToolStripMenuItem"
+        Me.FournisseursToolStripMenuItem.Size = New System.Drawing.Size(85, 20)
+        Me.FournisseursToolStripMenuItem.Text = "&Fournisseurs"
+        '
+        'FacturesToolStripMenuItem
+        '
+        Me.FacturesToolStripMenuItem.Name = "FacturesToolStripMenuItem"
+        Me.FacturesToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
+        Me.FacturesToolStripMenuItem.Text = "F&actures"
+        '
         'frmContrat
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -145,31 +144,30 @@ Partial Class frmContrat
         Me.ClientSize = New System.Drawing.Size(611, 401)
         Me.Controls.Add(Me.btnQuitter)
         Me.Controls.Add(Me.lblDescrButtons)
-        Me.Controls.Add(Me.lblDescr)
         Me.Controls.Add(Me.lblSousTitre)
         Me.Controls.Add(Me.pnlEcran)
         Me.Controls.Add(Me.lblTitre)
-        Me.Controls.Add(Me.btnLivrer)
-        Me.Controls.Add(Me.btnFacturer)
-        Me.Controls.Add(Me.btnResilier)
-        Me.Controls.Add(Me.btnRenouveller)
-        Me.Controls.Add(Me.btnOuvrir)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.Name = "frmContrat"
         Me.Text = "ABONET -Contrat-"
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnOuvrir As System.Windows.Forms.Button
-    Friend WithEvents btnRenouveller As System.Windows.Forms.Button
-    Friend WithEvents btnResilier As System.Windows.Forms.Button
-    Friend WithEvents btnFacturer As System.Windows.Forms.Button
-    Friend WithEvents btnLivrer As System.Windows.Forms.Button
     Friend WithEvents lblTitre As System.Windows.Forms.Label
     Friend WithEvents pnlEcran As System.Windows.Forms.Panel
     Friend WithEvents lblSousTitre As System.Windows.Forms.Label
-    Friend WithEvents lblDescr As System.Windows.Forms.Label
     Friend WithEvents lblDescrButtons As System.Windows.Forms.Label
     Friend WithEvents btnQuitter As System.Windows.Forms.Button
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents ContratToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CréationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RenouvelerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RésilierToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FournisseursToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ModificationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FacturesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
