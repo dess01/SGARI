@@ -125,8 +125,8 @@ Partial Class frmContrat
         'ÉquipementToolStripMenuItem
         '
         Me.ÉquipementToolStripMenuItem.Name = "ÉquipementToolStripMenuItem"
-        Me.ÉquipementToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
-        Me.ÉquipementToolStripMenuItem.Text = "É&quipement"
+        Me.ÉquipementToolStripMenuItem.Size = New System.Drawing.Size(88, 20)
+        Me.ÉquipementToolStripMenuItem.Text = "É&quipements"
         '
         'ServicesToolStripMenuItem
         '
