@@ -48,3 +48,4 @@ C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.Res
 C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.frmPaiement.resources
 C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.Provinciale.resources
 C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.vbproj.GenerateResource.Cache
+C:\Users\George\Documents\GitHub\SGARI\ABONNET\ABONNET\obj\x86\Debug\ABONNET.contrat_Creation.resources

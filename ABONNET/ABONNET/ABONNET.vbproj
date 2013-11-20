@@ -49,6 +49,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -78,16 +79,24 @@
     <Compile Include="Cheque.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Client.Designer.vb">
-      <DependentUpon>Client.vb</DependentUpon>
+    <Compile Include="Client.vb" />
+    <Compile Include="client_Ajout.Designer.vb">
+      <DependentUpon>client_Ajout.vb</DependentUpon>
     </Compile>
-    <Compile Include="Client.vb">
+    <Compile Include="client_Ajout.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Contrat.Designer.vb">
-      <DependentUpon>Contrat.vb</DependentUpon>
+    <Compile Include="Accueil.Designer.vb">
+      <DependentUpon>Accueil.vb</DependentUpon>
     </Compile>
-    <Compile Include="Contrat.vb">
+    <Compile Include="Accueil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrat.vb" />
+    <Compile Include="contrat_Creation.Designer.vb">
+      <DependentUpon>contrat_Creation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contrat_Creation.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Credit.Designer.vb">
@@ -134,11 +143,14 @@
     <EmbeddedResource Include="Cheque.resx">
       <DependentUpon>Cheque.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Client.resx">
-      <DependentUpon>Client.vb</DependentUpon>
+    <EmbeddedResource Include="client_Ajout.resx">
+      <DependentUpon>client_Ajout.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Contrat.resx">
-      <DependentUpon>Contrat.vb</DependentUpon>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contrat_Creation.resx">
+      <DependentUpon>contrat_Creation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Credit.resx">
       <DependentUpon>Credit.vb</DependentUpon>
